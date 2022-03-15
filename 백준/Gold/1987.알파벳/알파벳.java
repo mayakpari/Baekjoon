@@ -7,6 +7,7 @@ public class Main{
     static int[] dx = {0, 0, 1, -1};
     static int[] dy = {1, -1, 0, 0};
     static int[][] map;
+    // 값 입력
     public static int ans = 0;
     public static boolean[] visited = new boolean[26];
     static int R,C;
