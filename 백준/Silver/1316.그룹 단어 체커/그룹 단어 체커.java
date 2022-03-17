@@ -10,6 +10,7 @@ public class Main {
 
 		for(int c = 0;c<num;c++) {
 			String st = sc.next();
+			// 체크용 boolean 배열
 			boolean test[] = new boolean[26];
 
 			for(int i=0;i<st.length()-1;i++) {
