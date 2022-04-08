@@ -2,20 +2,11 @@ import java.util.*;
 import java.io.*;
 
 class Main {
-    static class Dot {
-        int x, y;
-
-        public Dot(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-    }
-
     static int n;
     static int m;
     static int[][] map;
     static int[][] submap;
-    static List<Dot> virus = new ArrayList<Dot>();
+    static List<dot> virus = new ArrayList<>();
     static int[] dx = {1, -1, 0, 0};
     static int[] dy = {0, 0, 1, -1};
     static int max = 0;
@@ -34,7 +25,7 @@ class Main {
             for (int j = 0; j < m; j++) {
                 map[i][j] = Integer.parseInt(st.nextToken());
                 if (map[i][j] == 2)
-                    virus.add(new Dot(i, j));
+                    virus.add(new dot(i, j));
             }
         }
         setWall(0, 0);
@@ -44,7 +35,7 @@ class Main {
     static void setWall(int start, int depth) {
         if (depth == 3) {
             copyMap();
-            for (Dot dot : virus) {
+            for (dot dot : virus) {
                 spreadVirus(dot.x, dot.y);
             }
             max = Math.max(max, getSafeArea());
@@ -93,5 +84,14 @@ class Main {
             }
         }
         return safe;
+    }
+}
+
+class dot {
+    int x, y;
+
+    public dot(int x, int y) {
+        this.x = x;
+        this.y = y;
     }
 }
