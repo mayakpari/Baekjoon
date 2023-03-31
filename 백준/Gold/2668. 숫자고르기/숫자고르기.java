@@ -41,7 +41,7 @@ public class Main {
         }
         
         if(arr[start] == end){
-            list.add(end);
+            list.add(start);
         }
     }
 }
