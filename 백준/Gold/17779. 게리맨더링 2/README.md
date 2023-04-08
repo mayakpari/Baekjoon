@@ -1,4 +1,4 @@
-# [Gold IV] 게리맨더링 2 - 17779 
+# [Gold III] 게리맨더링 2 - 17779 
 
 [문제 링크](https://www.acmicpc.net/problem/17779) 
 
@@ -8,7 +8,7 @@
 
 ### 분류
 
-브루트포스 알고리즘(bruteforcing), 구현(implementation), 시뮬레이션(simulation)
+구현, 브루트포스 알고리즘, 시뮬레이션
 
 ### 문제 설명
 
@@ -44,9 +44,9 @@
 <table class="table table-bordered" style="width: 100%;">
 	<tbody>
 		<tr>
-			<td style="width: 33%; text-align: center;"><img alt="" src="https://upload.acmicpc.net/c144c31e-db45-4094-9c1d-0656a690aef0/-/preview/" style="width: 300px; height: 303px;"></td>
-			<td style="width: 33%; text-align: center;"><img alt="" src="https://upload.acmicpc.net/813c38e0-3197-4589-bc96-17d96eb9ed14/-/preview/" style="width: 300px; height: 305px;"></td>
-			<td style="width: 34%; text-align: center;"><img alt="" src="https://upload.acmicpc.net/892417dd-b824-4d4e-8bce-2faf341a9f66/-/preview/" style="width: 300px; height: 302px;"></td>
+			<td style="width: 33%; text-align: center;"><img alt="" src="" style="width: 300px; height: 303px;"></td>
+			<td style="width: 33%; text-align: center;"><img alt="" src="" style="width: 300px; height: 305px;"></td>
+			<td style="width: 34%; text-align: center;"><img alt="" src="" style="width: 300px; height: 302px;"></td>
 		</tr>
 		<tr>
 			<td style="width: 33%; text-align: center;">x = 2, y = 4, d<sub>1</sub> = 2, d<sub>2</sub> = 2</td>
