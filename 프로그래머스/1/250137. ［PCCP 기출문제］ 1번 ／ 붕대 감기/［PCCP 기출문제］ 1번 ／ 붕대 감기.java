@@ -1,9 +1,9 @@
 class Solution {
     public int solution(int[] bandage, int health, int[][] attacks) {
         int answer = 0;
-        int curr = 0;
-        int time = 0;
-        int currHealth = health;
+        int curr = 0; // 현재 시간
+        int time = 0; // 마지막 공격으로부터 지난 시간
+        int currHealth = health; // 현재 체력
         for(int i=0;i<attacks.length;i++){
             time = attacks[i][0] - curr - 1; // 몬스터의 공격을 받기까지 걸린 시간
             currHealth += time * bandage[1] + time/bandage[0] * bandage[2]; // 그 동안 회복한 체력
